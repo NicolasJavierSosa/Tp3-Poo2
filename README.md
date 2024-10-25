@@ -9,6 +9,7 @@ La clase MusicApp utiliza el patrón Adapter para mantener una interfaz constant
 ---
 
 **Ejercicio 2: Patrón Composite**
+
 El patrón Composite es ideal para representar estructuras jerárquicas donde los elementos individuales pueden ser tratados de la misma manera que los grupos de elementos. 
 La consigna pide tratar archivos y directorios de manera uniforme, lo que significa que el cliente debe poder interactuar con ambos tipos de objetos de la misma manera.
 de esta manera permite: 
@@ -18,5 +19,6 @@ Mostrar los detalles de la estructura jerárquica de manera recursiva utilizando
 ---
 
 **Ejercicio 3: Patrón Template Method**
+
 Es un patrón de diseño de comportamiento que define el esqueleto de un algoritmo en la superclase pero permite que las subclases sobrescriban pasos del algoritmo sin cambiar su estructura.
 La consigna pide hacer una clase abstracta "Cake" y dos subclase que la utilicen como plantilla heredando algunas funcionalidades y modificando otras según el tipo de pastel.
